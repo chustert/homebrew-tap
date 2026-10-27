@@ -1,25 +1,25 @@
 class Heinzel < Formula
   desc "A terminal app for running a team of AI agents with their own terminals, skills and approvals."
   homepage "https://github.com/chustert/heinzel-releases"
-  version "0.36.0"
+  version "0.37.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/chustert/heinzel-releases/releases/download/v0.36.0/heinzel-aarch64-apple-darwin.tar.xz"
-      sha256 "d8ff0b50fe5a996ecdaefd379fce1fd35921350fa59d72e4b3318386154d851d"
+      url "https://github.com/chustert/heinzel-releases/releases/download/v0.37.0/heinzel-aarch64-apple-darwin.tar.xz"
+      sha256 "c8ebf64b120c84a99ae841bf6e414f695e8d45209df43c538eef7f8b5767f9b1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/chustert/heinzel-releases/releases/download/v0.36.0/heinzel-x86_64-apple-darwin.tar.xz"
-      sha256 "92ec57a7c4044680d1d0cd2c45879197345781750afe53a9a9ac6546b847d9b3"
+      url "https://github.com/chustert/heinzel-releases/releases/download/v0.37.0/heinzel-x86_64-apple-darwin.tar.xz"
+      sha256 "da1fd55cd9908593e4793988cef399f06999b852dc0f1614f86b8711cae187a8"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/chustert/heinzel-releases/releases/download/v0.36.0/heinzel-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "26a04c4009121eb5322be06edd91741f3274b87f7ddc76ad5d9c85fa20cc7c21"
+      url "https://github.com/chustert/heinzel-releases/releases/download/v0.37.0/heinzel-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "0f2c44e2edd89ba18d9d37411a15a2a75d10e869a0313a8cf67613872d3b2c6e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/chustert/heinzel-releases/releases/download/v0.36.0/heinzel-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "46db69a67ef91ff762cb8b6e937323f671cd761894776c4935be33e6875ca819"
+      url "https://github.com/chustert/heinzel-releases/releases/download/v0.37.0/heinzel-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "7b35e274503208e01fffa06a7ea4774b6fd2cf7ead8397ca47f9fbf3c111ede9"
     end
   end
 
